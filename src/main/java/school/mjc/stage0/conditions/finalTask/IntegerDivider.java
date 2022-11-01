@@ -6,7 +6,11 @@ public class IntegerDivider {
         if (division*divider==dividend){
             System.out.println("can be divided completely");
         }
+        else if (divider==0){
+            System.out.println("division by zero");
+    }
         else
             System.out.println("cannot be divided completely");
+
     }
 }
