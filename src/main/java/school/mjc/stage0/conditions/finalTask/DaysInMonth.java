@@ -3,7 +3,7 @@ package school.mjc.stage0.conditions.finalTask;
 public class DaysInMonth {
     public void printDays(int year, int month) {
         if (year > 0 && 0<month && month<13) {
-            if (year % 4 != 0 && year % 100 == 0 && year % 1000 != 0) {
+            if (year % 4 != 0 && year % 1000 == 0 && year % 100 != 0) {
                 switch (month) {
                     case 1:
                     case 3:
