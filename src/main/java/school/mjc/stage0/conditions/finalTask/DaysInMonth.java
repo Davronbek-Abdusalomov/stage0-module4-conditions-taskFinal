@@ -15,7 +15,7 @@ public class DaysInMonth {
                         System.out.println(31);
                         break;
                     case 2:
-                        System.out.println(28);
+                        System.out.println(29);
                         break;
                     case 4:
                     case 6:
@@ -36,7 +36,7 @@ public class DaysInMonth {
                         System.out.println(31);
                         break;
                     case 2:
-                        System.out.println(29);
+                        System.out.println(28);
                         break;
                     case 4:
                     case 6:
